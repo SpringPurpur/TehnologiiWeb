@@ -1,0 +1,26 @@
+* {
+    font-size: 24px;
+}
+
+#flex-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.flex-item {
+    padding: 100px 5px 100px 5px;
+}
+
+#phone-table, tr, th, td {
+    border: 5px solid black;
+    text-align: center;
+}
+
+#phone-table-head {
+    background-color: #a9f6ff;
+}
+

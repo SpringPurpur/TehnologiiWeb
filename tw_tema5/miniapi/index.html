@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Reader</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="action-form-container">
+      <form>
+        <label for="radioRequestType">Choose action</label> <br />
+        <label for="radioRequestType">GET /</label>
+        <input type="radio" name="radioRequestType" id="radioRequestInputGet" />
+        <label for="radioRequestType">POST /</label>
+        <input
+          type="radio"
+          name="radioRequestType"
+          id="radioRequestInputPost"
+        />
+        <label for="radioRequestType">PUT /</label>
+        <input type="radio" name="radioRequestType" id="radioRequestInputPut" />
+        <label for="radioRequestType">DELETE /</label>
+        <input
+          type="radio"
+          name="radioRequestType"
+          id="radioRequestInputDelete"
+        />
+        <br /><br />
+      </form>
+    </div>
+    <div id="forms-container"></div>
+    <div id="result-container">
+      <h3>API Response:</h3>
+      <pre id="api-response-data">Select an action and search.</pre>
+    </div>
+    <script src="./webscript.js"></script>
+  </body>
+</html>

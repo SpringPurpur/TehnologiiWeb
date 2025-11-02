@@ -1,0 +1,13 @@
+* {
+    font-size: 36px;
+}
+
+#action-form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#forms-container {
+    display: flex;
+    flex-direction: row;
+}
