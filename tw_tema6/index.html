@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Articles</a></li>
+      </ul>
+    </nav>
+    <input type="checkbox" name="checkBtn" class="checkBtn" />
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th><b>Nume</b></th>
+          <th><b>Faculty</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ionut</td>
+          <td>ASE</td>
+        </tr>
+        <tr>
+          <td>Mihaela</td>
+          <td>Politie</td>
+        </tr>
+        <tr>
+          <td>Alex</td>
+          <td>Secretar</td>
+        </tr>
+        <tr>
+          <td>Ioana</td>
+          <td>Poli</td>
+        </tr>
+        <tr>
+          <td>Mihaita</td>
+          <td>Bibliotecar</td>
+        </tr>
+        <tr>
+          <td>Denis</td>
+          <td>Politie</td>
+        </tr>
+        <tr>
+          <td>Marcel</td>
+          <td>Pompieri</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+
+    <h1>Tic Tac Toe</h1>
+    <div class="container">
+      <div class="row">
+        <div class="top left square"></div>
+        <div class="top center square"></div>
+        <div class="top right square"></div>
+      </div>
+      <div class="row">
+        <div class="middle left square"></div>
+        <div class="middle center square"></div>
+        <div class="middle right square"></div>
+      </div>
+      <div class="row">
+        <div class="bottom left square"></div>
+        <div class="bottom center square"></div>
+        <div class="bottom right square"></div>
+      </div>
+    </div>
+
+    <p>Contact Form</p>
+    <form class="form-box">
+        <label for="firstName">First Name</label>
+        <input type="text" placeholder="Your name..." name="firstName" />
+        <br />
+        <label for="lastName">Last Name</label>
+        <input type="text" placeholder="Your last name..." name="lastName" />
+        <br />
+        <label for="country">Country</label>
+        <select name="country">
+          <option value="Romania">Romania</option>
+          <option value="USA">USA</option>
+          <option value="UK">United Kingdom</option>
+        </select>
+        <br />
+        <label for="subject">Subject</label>
+        <input type="text" placeholder="Write something..." name="subject" />
+        <br />
+        <input type="submit" name="submitBtn" class="submit-button" />
+    </form>
+  </body>
+</html>
