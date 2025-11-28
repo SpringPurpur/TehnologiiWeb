@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Flex E1</title>
+    <style>
+      * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    padding: 32px;
+    color: white;
+}
+
+.column {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2em;
+}
+
+.column-item {
+    font-size: 72px;
+    font-style: italic;
+}
+
+.column-item:hover {
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    background-color: #c21322;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+      </div>
+      <div class="column">
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+      </div>
+      <div class="column">
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+        <div class="column-item">Item</div>
+      </div>
+    </div>
+  </body>
+</html>
